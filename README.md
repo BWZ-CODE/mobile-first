@@ -1,2 +1,3 @@
 # mobile-first
-This is a new repository based on the good practice about design in first mobile
+Hey how are you? This is my first mobile design. Enjoy it!
+
