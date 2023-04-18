@@ -330,7 +330,7 @@ main{
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 516px;
+    max-width: 320px;
     margin: 0 auto;  
 }
 
@@ -469,5 +469,3 @@ main{
     font-weight: bold;
     line-height: 18px;
 }
-
-
