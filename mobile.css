@@ -266,12 +266,16 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 
 .product_detail--card{
     display: flex;
     flex-direction: column;
     background-color: var(--warm-blackplus1);
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
     border-radius: 8px;
     padding:15px;
     margin: 16px;
@@ -321,3 +325,149 @@ main{
     background-image: url('./icons/check-circle.svg')
 
 }
+
+.image_middle{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 516px;
+    margin: 0 auto;  
+}
+
+.image_middle figure{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 516px;
+    margin: 0 auto;  
+}
+
+
+
+.image_middle--info{
+    font-size: 2.4rem;
+    position: absolute;
+    color:var(--just-white) ;
+    left: calc(50% - 86px);
+    top: calc(0% + 64px);
+    
+}
+
+.choose_plan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 288px;
+    padding-top: 64px;
+    padding-left: 15px;
+    padding-right: 17px;
+    background-color: #efedec ;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.choose_plan--title{
+    text-align: center;
+}
+
+.choose_plan--title h2{
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+}
+
+.choose_plan--title p{
+    font-size: 1.4rem;
+    color: #757575;
+}
+
+.choose_plan--plans{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 190px;
+    height: auto;
+    background-color: var(--just-white);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+.choose_plan--plans1{
+    position: absolute;
+    top: calc(0% - 10px);
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white);
+    font-weight: bold;
+    background-color: var(--bitcoin-orage);
+}
+
+.choose_plan--plans2{
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.choose_plan--plans3{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight:lighter;
+    left: -5px;
+    top: 10px;
+}
+
+.choose_plan--plans4{
+    margin-top: 8px;
+    font-size: 5.2rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.choose_plan--plans5{
+    text-align: center;
+    color: #757575;
+}
+
+.choose_plan--button{
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 9px;
+    padding:12px 16px 12px 16px;
+    border: 2px solid #F7931A;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.choose_plan--button--logo{
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 22px;
+    margin-left: 13px;
+    background-image: url('./icons/orange-right-arrow.svg');
+}
+
+.footer_main{
+    display: flex;
+    padding: 30px 35px 40px 35px;
+    background-color: var(--bitcoin-orage);
+    color: var(--just-white);
+    justify-content: space-between;
+}
+
+.footer_main--list{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+
