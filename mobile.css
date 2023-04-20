@@ -353,8 +353,17 @@ main{
     
 }
 
-.choose_plan{
+.choose_plan_container{
     display: flex;
+    gap: 25px;
+    height:316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+}
+
+.choose_plan{
+    /*display: flex;*/
     flex-direction: column;
     width: 100%;
     min-width: 288px;
@@ -383,10 +392,13 @@ main{
 .choose_plan--plans{
     display: flex;
     position: relative;
+    scroll-snap-align:center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    width: 190px;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
     height: auto;
     background-color: var(--just-white);
     padding: 15px;
